@@ -15,4 +15,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EscuelaSystem.Data\EscuelaSystem.Data.csproj" />
+  </ItemGroup>
+
 </Project>

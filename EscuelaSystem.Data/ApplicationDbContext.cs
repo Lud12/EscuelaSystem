@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using EscuelaSystem.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace EscuelaSystem.Data
@@ -9,7 +10,7 @@ namespace EscuelaSystem.Data
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options):base(options)
         {
-
         }
+        public DbSet<Materia> Materias { get; set; }
     }
 }
