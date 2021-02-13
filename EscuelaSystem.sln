@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EscuelaSystemData", "EscuelaSystemData\EscuelaSystemData.csproj", "{C98A5CDE-8831-4A6C-8161-C1C0D74BF642}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EscuelaSystem.Data", "EscuelaSystemData\EscuelaSystem.Data.csproj", "{C98A5CDE-8831-4A6C-8161-C1C0D74BF642}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EscuelaSystem.Models", "EscuelaSystem.Models\EscuelaSystem.Models.csproj", "{37AC5CF9-92BF-4945-A9F3-12BE915789E5}"
 EndProject
