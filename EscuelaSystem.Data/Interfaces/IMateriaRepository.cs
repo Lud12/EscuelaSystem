@@ -8,5 +8,6 @@ namespace EscuelaSystem.Data.Interfaces
 {
     public interface IMateriaRepository : IRepository<Materia>
     {
+        void DeleteHabilitada();
     }
 }
