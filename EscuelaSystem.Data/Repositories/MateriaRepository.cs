@@ -10,7 +10,7 @@ namespace EscuelaSystem.Data.Repositories
     public class MateriaRepository : Repository<Materia>, IMateriaRepository
     {
         private readonly ApplicationDbContext _db;
-        public MateriaRepository(ApplicationDbContext db): base(db)
+        public MateriaRepository(ApplicationDbContext db) : base(db)
         {
 
         }
